@@ -1,0 +1,99 @@
+.bg{
+    background-image: url("https://cdn.business2community.com/wp-content/uploads/2015/06/1990-l27.gif27.gif");
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size:cover;
+}
+
+.nav-bar{
+    background-color: rgb(201, 178, 147);
+    padding: 3px;
+}
+
+.titlet{
+    color: black;
+    margin-left: 450px;
+    font-size: 30px;
+}
+
+.hnav{
+    display: block;
+    background-color: rgb(188, 154, 108);
+    padding: 5px;
+}
+button{
+    background-color:rgb(176, 147, 127);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.container-1{
+    background-color: rgb(234, 218, 197);
+    padding: 20px;
+    align-items: center;
+    height: 300px;
+    width: 400px;
+    margin-left: 400px;
+    border-radius: 15px;
+}
+.container-2{
+    background-color: rgb(235, 221, 203);
+    padding: 20px;
+    align-items: center;
+    height: 470px;
+    width: 400px;
+    margin-left: 450px;
+    border-radius: 15px;
+}
+
+.log{
+    padding:10px;
+    font-size: 20px;
+}
+
+#txtusername{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#txtpassword{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+#username{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#password{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+
+}
+#email{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#mobile{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+.btn{
+    background-color: rgb(216, 188, 168);
+    font-size: 22px;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+.reg{
+    margin-left: 470px;
+    font-size: larger;
+    color: black;
+    font-weight: bold;
+}

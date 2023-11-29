@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/ahstyle.css" />
+    <script src="./js/script.js"></script>
+    <title>HomePage</title>
+
+</head>
+
+<body class="bg">
+    <nav class="nav-bar">
+        <div class="titlet">
+            <p> TASK APP - ADMIN DASHBOARD</p>
+        </div>
+        <div class="hnav">
+            <input type="text" class="srchbar" id="srchvalue" placeholder="Search Tasks"></input>
+            <button onclick="search()">Search</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button onclick="visibileUserForm()"></i>ADD TASK</button>&nbsp;&nbsp;&nbsp;
+            <button onclick="display()"></i>VIEW TASK</button>&nbsp;&nbsp;&nbsp;
+            <a href="index.html">
+                <button onclick="index.html"> LOGOUT</i></button></a>
+        </div>
+    </nav>
+    <br>
+    <div class="container-1">
+        <div id="root" class="users-container">
+        </div>
+        <form id="addForm">
+            <div class='form'>
+                <input type="text" placeholder="Task Name" id="taskname"><br>
+                <br><input type="text" placeholder="Description" id="description"><br>
+                <br><input type="text" placeholder="Assigned To" id="assignedto"><br>
+                <br>
+                <div class="input">
+                    <select id="status">
+                        <option>Status</option>
+                        <option value="Assigned">Assigned</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Completed">Completed</option>
+                        <option value="Pending">Pending</option>
+                    </select>
+                </div>
+                <br><button class="btn" onclick="addTask()">Add</button>
+            </div>
+        </form>
+        <form id="updateForm">
+            <div class='form'>
+                <input type="text" placeholder="Task Name" id="uptaskname"><br>
+                <br><input type="text" placeholder="Description" id="updescription"><br>
+                <br><input type="text" placeholder="Assigned To" id="upassignedto"><br>
+                <br>
+                <div class="input">
+                    <select id="upstatus">
+                        <option>Status</option>
+                        <option value="Assigned">Assigned</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Completed">Completed</option>
+                        <option value="Pending">Pending</option>
+                    </select>
+                </div><br>
+                <button class="btn" onclick="updateTask()">Update</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

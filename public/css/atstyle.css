@@ -1,0 +1,87 @@
+.nav-bar{
+    background-color: rgb(201, 178, 147);
+    padding: 3px;
+}
+.bg{
+    background-image: url("https://static.wixstatic.com/media/36e6d5_ff664e5c7c7847cbaa42c07b75e970d5~mv2.png/v1/fill/w_1920,h_1080,al_c,q_95,enc_auto/36e6d5_ff664e5c7c7847cbaa42c07b75e970d5~mv2.png");
+    background-repeat:repeat-y;
+    background-size:cover;
+    background-color: rgba(235, 231, 231, 0.857);
+}
+.titlet{
+    color: black;
+    margin-left: 450px;
+    font-size: 30px;
+}
+.hnav{
+    display: block;
+    background-color: rgb(188, 154, 108);
+    padding: 5px;
+}
+
+
+
+
+.user-header{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(211, 211, 211, 0.931);
+    padding: 10px;  
+    
+}
+
+.headcell{
+    padding: 10px;
+    padding-left: 60px;
+    margin-left: 20px;
+    text-align: center;
+    width: 150px;
+    font-size: 30px;
+}
+.container-1{
+    height: 50px;
+    width: 500px;
+    font-size: 50px;
+    margin-left: 400px;
+}
+
+
+button{
+    background-color:rgb(167, 167, 167);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.btn{
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    margin-top: 5px;
+    border-color: rgb(186, 186, 186);
+}
+.btn1{
+    background-color: rgb(176, 176, 176);
+    font-size: 15px;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: none;
+}
+
+.task{
+    display: inline-block;
+    padding: 5px; 
+}
+.tbold{
+    font-weight: bold;
+}
+.task1{
+    display: inline;
+}
+
+

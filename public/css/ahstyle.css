@@ -1,0 +1,150 @@
+.nav-bar{
+    background-color: rgb(202, 202, 202);
+    /* padding: 3px; */
+}
+.bg{
+    background-image: url("https://png.pngtree.com/background/20230403/original/pngtree-styled-workspace-with-laptop-vector-picture-image_2285360.jpg");
+    background-repeat:repeat-y;
+    background-size: cover;
+    background-position: top;
+    background-color: rgba(235, 231, 231, 0.857);
+}
+.titlet{
+    color: black;
+    margin-left: 450px;
+    font-size: 30px;
+    padding: 3px;
+    align-items: center;
+}
+.hnav{
+    display: block;
+    background-color: rgba(182, 182, 182, 0.928);
+    /* padding: 5px; */
+}
+.container-1{
+    height: 50px;
+    width: 500px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+/* .users-container{
+    display: inline;
+    
+} */
+#updateForm {
+    display: none;
+}
+#addForm {
+    display: none;
+}
+
+.user-header{
+    text-align: center;
+    font-size: 20px;
+    background-color: rgba(211, 211, 211, 0.931);
+    padding: 10px;
+}
+
+.headcell{
+    padding: 10px;
+    padding-left: 60px;
+    margin-left: 20px;
+    text-align: center;
+    width: 150px;
+    font-size: 30px;
+}
+.form{
+    background-color: rgba(231, 231, 231, 0.936);
+    padding: 20px;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+#uptaskname{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#taskname{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#updescription{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#description{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#upstatus{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#status{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+
+#assignedto{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+#upassignedto{
+    padding: 10px;
+    font-size: 20px;
+    width: 350px;
+}
+button{
+    background-color:rgba(160, 159, 159, 0.955);
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 7px;
+}
+.btn{
+    background-color: rgb(216, 216, 216);
+    font-size: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 40px;
+    width: 90px;
+    margin-top: 5px;
+    border-color: rgb(186, 186, 186);
+}
+.btn1{
+    background-color: rgb(176, 176, 176);
+    font-size: 15px;
+    margin-left: 40px;
+    border-radius: 10px;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    border: none;
+}
+
+.task{
+    display: inline-block;
+    padding: 5px; 
+}
+.tbold{
+    font-weight: bold;
+}
+.srchbar{
+    height: 30px;
+    width: 170px;
+    border-radius: 5px;
+    background-color: rgba(223, 211, 193, 0.907);
+    color: black;
+    font-size: large;
+}
+
+
